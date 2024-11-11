@@ -1,45 +1,50 @@
 # Observability
-Introduction to Observability
-Observability is the ability to understand the internal state of a system by analyzing the data it produces, including logs, metrics, and traces.
+✨ Introduction to Observability
 
-Monitoring(Metrics): involves tracking system metrics like CPU usage, memory usage, and network performance. Provides alerts based on predefined thresholds and conditions
+• Observability is the ability to understand the internal state of a system by analyzing the data it produces, including logs, metrics, and traces.
 
-Monitoring tells us what is happening.
-Logging(Logs): involves the collection of log data from various components of a system.
+• Monitoring(Metrics): involves tracking system metrics like CPU usage, memory usage, and network performance. Provides alerts based on predefined thresholds and conditions
+   
+    ° Monitoring tells us what is happening.
 
-Logging explains why it is happening.
-Tracing(Traces): involves tracking the flow of a request or transaction as it moves through different services and components within a system.
+• Logging(Logs): involves the collection of log data from various components of a system.
+    
+    ° Logging explains why it is happening.
 
-Tracing shows how it is happening.
+• Tracing(Traces): involves tracking the flow of a request or transaction as it moves through different services and components within a system.
+    
+    ° Tracing shows how it is happening.
+    
 ![Introduction-to-Observability](https://github.com/user-attachments/assets/954684f1-6824-4cd8-9c78-dcf0f07fbfb7)
 
-Why Monitoring?
-Monitoring helps us keep an eye on our systems to ensure they are working properly.
+✨ Why Monitoring?
+• Monitoring helps us keep an eye on our systems to ensure they are working properly.
 
-Purpose: maintaining the health, performance, and security of IT environments.
+• Purpose: maintaining the health, performance, and security of IT environments.
 
-It enables early detection of issues, ensuring that they can be addressed before causing significant downtime or data loss.
+• It enables early detection of issues, ensuring that they can be addressed before causing significant downtime or data loss.
 
-We use monitoring to:
+• We use monitoring to:
 
-  Detect Problems Early
-  Measure Performance
-  Ensure Availability
+    ° Detect Problems Early
+    ° Measure Performance
+    ° Ensure Availability
 
-Why Observability?
-Observability helps us understand why our systems are behaving the way they are.
+✨ Why Observability?
+• Observability helps us understand why our systems are behaving the way they are.
 
-It’s like having a detailed map and tools to explore and diagnose issues.
+• It’s like having a detailed map and tools to explore and diagnose issues.
 
-We use observability to:
+• We use observability to:
 
-  Diagnose Issues
-  Understand Behavior
-  Improve Systems
+    ° Diagnose Issues
+    ° Understand Behavior
+    ° Improve Systems
 
 ![why-monitoring-why-observability](https://github.com/user-attachments/assets/abebf657-83f1-4e5b-90b2-dc8c9e52682d)
 
-What is the Exact Difference Between Monitoring and Observability?
+✨ What is the Exact Difference Between Monitoring and Observability?
+
 🔥 Monitoring is the when and what of a system error, and observability is the why and how
 Category	Monitoring	Observability
 Focus	Checking if everything is working as expected	Understanding why things are happening in the system
@@ -47,7 +52,8 @@ Data	Collects metrics like CPU usage, memory usage, and error rates	Collects log
 Alerts	Sends notifications when something goes wrong	Correlates events and anomalies to identify root causes
 Example	If a server's CPU usage goes above 90%, monitoring will alert us	If a website is slow, observability helps us trace the user's request through different services to find the bottleneck
 Insight	Identifies potential issues before they become critical	Helps diagnose issues and understand system behavior
-🔭 Does Observability Cover Monitoring?
+
+***🔭 Does Observability Cover Monitoring? ***
 Yes!! Monitoring is subset of Observability
 Observability is a broader concept that includes monitoring as one of its components.
 monitoring focuses on tracking specific metrics and alerting on predefined conditions
